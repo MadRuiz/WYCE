@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Editable</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<br><h1>[ OnTV ] <small> El Blog </small></h1><br>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li class="seleccionado"><a href="editable.html">Editale</a></li>
+			<li class="subscripcion"><a href="#">Síguenos</a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<header>
+			<h2>On-Blog-TV</h2>
+		</header>
+		<p>
+			Series de TV, ¿qué más puede decirse? Reviews, críticas, quejas, recomendaciones, datos curiosos, entrevistas (y traducciones de entrevistas), opiniones, y demás fanaticadas de y para los amantes de la pantalla chica. <br> ¡Y que viva el Fandom!
+		</p>
+	</section>
+	<div id="content">
+		<div id="maincontent">
+			<article class="blogpost" >
+				<header>
+					<h2>Texto Editable: </h2>
+				</header>
+				<p contenteditable="true"> 
+					Está claro que Game of Thrones es ficción, pero esta exitosa serie está ligeramente inspirada en varios momentos clave de la historia de Gran Bretaña, por ejemplo: <br>
+				<ul>
+					<li contenteditable="true">La guerra de las rosas fue una batalla que dividió a los nobles británicos, los que apoyaban a la dinastía Lancaster (del que se deriva, Lannister) y los que apoyaban a la de los York (terminación similar a Stark).</li><br>
+					<li contenteditable="true">Si ponemos Irlanda al revés y lo unimos a Gran Bretaña, tenemos un mapa parecido al de Poniente.</li><br>
+					<li contenteditable="true">Henry VI (Robert Baratheon) se casó con Mary Anjou (Cersei), una mujer guapa, ambiciosa e implacable con cualquier amenaza al trono. Sobre todo desconfiaba de Richard de York (Ned Stark), el consejero (o mano) del rey. Richard de York estaba descontento con muchas decisiones de la corona e intentó conquistar el Trono, pero lo único que consiguió fue que le cortaran la cabeza.</li><br>
+					<li contenteditable="true">Su hijo, Edward IV (Robb Stark), llevó a cabo varias campañas militares contra los Lancaster y fue coronado rey. Mientras que Mary de Anjou fue desterrada con su hijo pequeño Edward de Westminster (Joffrey), conocido por su crueldad y obsesionado con cortar las cabezas de sus enemigos. No es exactamente lo que ocurre en la serie, pero por ahora hay muchas semejanzas. </li><br>
+					<li contenteditable="true">Edward IV, como Robb Stark, se casó a escondidas con la mujer que quería (Talisa), en vez de con la que había prometido casarse, la hija de su mayor aliado. </li><br>
+					<li contenteditable="true">Cuando Edward VI murió, su hijo de doce años era el sucesor, pero uno de sus tíos, Richard III (Stannis Baratheon) le acusó de ser un bastardo y se autoproclamó rey.</li><br>
+					<li contenteditable="true">Dos años después, desde Europa (Essos), llegó una armada gobernada por Henry Tudor (Daenerys Targaryen), descendiente del Duque de Lancaster, que estaba en el exilio desde la muerte de su padre en una rebelión. Henry Tudor viajó en barco cruzando el Canal Inglés y derrotó al ejército de Richard.</li>
+				</ul>
+				</p>
+				
+			</article>
+			<section id="comments">
+				<article>
+					<header>
+						<a href="#">Eli</a><time datetime="2015-07-04T09:16+01:00"> Julio 04 2015</time>	
+					</header>
+					<p>
+						Hay muchísimas más similitudes. Como que westeros es inglaterra con irlanda al revés, la cena negra como símil de la boda roja y miles de referencias.
+					</p>
+				</article>
+				<article>
+					<header>
+						<a href="#">Dan</a><time datetime="2015-07-23T20:32+01:00"> Julio 23 2015</time>	
+					</header>
+					<p>
+						Otro aspecto similar a la historia de Inglaterra (o de España) es el de los pueblos que habitan Poniente y la forma en que llegaron: los primeros hombres serían los celtas (o los íberos), los ándalos serían una fusión de los romanos y los anglosajones (o de los romanos y los visigodos) y los rhoynar serían los normandos (o los árabes).
+					</p>
+				</article>
+			</section>
+			<form action="#" method="post">
+				<h3>Coméntanos :D</h3>
+				<p>
+					<label for="name">Nombre:</label>
+					<input name="name" id="name" type="text" required>
+				</p>
+				<p>
+					<label for="email">E-mail:</label>
+					<input name="email" id="email" type="email" required>
+				</p>
+				<p>
+					<label for="website">Sitio:</label>
+					<input name="website" id="website" type="url">
+				</p>
+				<p>
+					<label for="comment">Comentario:</label>
+					<textarea name="comment" id="comment" ></textarea>
+				</p>
+				<p>
+					<input type="submit" value="Enviar">
+				</p>
+			</form>
+		</div>
+		<aside>
+			<section>
+				<header>
+					<h3>Archivos</h3>
+				</header>
+				<ul>
+					<li><a href="#">2013</a></li>
+					<li><a href="#">2014</a></li>
+					<li><a href="#">2015</a></li>
+					<li><a href="#">2016</a></li>
+					<li><a href="#">2017</a></li>
+				</ul>
+			</section>
+			<section>
+				<header>
+					<h3>Categorías</h3>
+				</header>
+				<ul>
+					<li><a href="#">Críticas</a></li>
+					<li><a href="#">Recomendaciones</a></li>
+					<li><a href="#">Sinopsis</a></li>
+					<li><a href="#">Novedades</a></li>
+				</ul>
+			</section>
+		</aside>
+	</div>
+	
+	<footer>
+		<div>
+			<section id="about">
+				<header>
+					<h3>On-Blog-Tv</h3>
+				</header>
+				<p>
+					El blog relativamente oficial de <b>OnTV</b>. Reviews, críticas, y más fanaticadas del medio del entretenimiento de la pantalla chica.
+				</p>
+			</section>
+			<section id="blogroll">
+				<header>
+					<h3>Últimas entradas</h3>
+				</header>
+				<ul>
+					<li><a href="#">Cierta cadena se está quedando sin ideas</a></li>
+					<li><a href="#">La rentabilidad de los spoilers</a>
+					</li><li><a href="#">Homeland: la review de reviews</a></li>
+					<li><a href="#">Nuevas temporadas para este 2017</a></li>
+				</ul>
+			</section>
+			<section id="popular">
+				<header>
+					<h3>Otros sitios de interés:</h3>
+				</header>
+				<ul>
+					<li><a href="http://www.tvspoileralert.com/">TV Spoiler Alert</a></li>
+					<li><a href="https://www.rottentomatoes.com/top-tv/">Rotten Tomatoes (Solo en inglés)</a></li>
+					<li><a href="http://www.vix.com/es/series">Batanga</a></li>
+					<li><a href="https://hipertextual.com/cine-television">Hipertextual (Cine y TV)</a></li>
+					<li><a href="https://www.vayatele.com/?utm_source=xataka&utm_medium=network&utm_campaign=favicons">¡Vaya Tele!</a></li>
+					<li><a href="https://elblogdelasseriesamericanas.blogspot.com.es/">El blog de series americanas</a></li>
+					<li><a href="http://www.bolsamania.com/seriesadictos/">Series adictos</a></li>
+					<li><a href="http://todoseries.com/">TodoSeries</a></li>
+					<li><a href="http://www.imdb.com/chart/toptv/?ref_=nv_tp_tv250_2">ImDB (Solo en inglés)</a></li>
+				</ul>
+			</section>
+		</div>
+		<!--footer-->
+	</footer>	
+</body>
+</html>
