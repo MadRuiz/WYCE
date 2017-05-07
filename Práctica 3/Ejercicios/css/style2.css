@@ -1,0 +1,91 @@
+#encabezado{
+	background-color: darkred;
+	border: 1px solid black;
+	display: inline;
+	float: left;
+	height: 50;
+	margin: 10;
+	padding: 10;
+	width: 224;
+}
+#encabezado h1{
+	border-bottom: 1px solid snow;
+	color: snow;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	width: 224px;
+}
+.contenedor{
+	background-color: whitesmoke;
+	border: 1px solid black; 
+	margin: 10px auto;
+	text-align: left;
+	width: 800px;
+}
+.contenido{
+	clear: both;
+	padding: 10px;
+	width: 780px:;
+}
+.menu{
+	border: 1px solid darkred;
+	float: left;
+	height: 20px;
+	margin: 10px 10px auto 0;
+	width: 520px;
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	float: left;
+	margin: 0;
+}
+.menu li a{
+	background-color: darkred;
+	color: snow;
+	font-weight: bold;
+	padding: 4px 25px 6px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 90px;
+}
+.menu li a:hover{
+	background-color: teal;
+}
+.footer{
+	background-color: darkred;
+	color: snow;
+	font-size: 80%;
+	font-style: italic, bold;
+	padding: 10px;
+	text-align: center;
+	width: 780px;
+}
+body{
+	color: #666;
+	font-family: verdana, arial, serif;
+	font-size: 10px;
+	text-align: center;
+}
+h2{
+	border-bottom: 1px dotted darkred;
+	color: darkred;
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 780px;
+}
+h3{
+	border-bottom: 1px dotted teal;
+	color: teal;
+	font-size: 14px;
+	width: 780px;
+}
+p{
+	text-align: justify;
+}
