@@ -1,0 +1,253 @@
+*{
+	margin:0;
+	padding:0;
+}
+header, footer, aside, nav, article {
+	display: block;
+}
+body{
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px helvetica, arial, sans-serif;
+	background-color: beige;
+}
+h2{
+	font-size: 28px;
+	line-height: 44px;
+	padding: 22px 0;
+}
+h3{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+p{
+	padding-bottom: 22px;
+}
+nav{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: url("../images/nav_background.png");
+}
+nav ul{
+	margin: 0 auto;
+	width: 940px;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: inline-block;
+	margin-right: 20px;
+	width: 90px;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: #777;
+	}
+nav ul li a:hover{
+	color: #fff;
+}
+nav ul li.seleccionado a:hover{
+	color: #fff;
+}
+nav ul li.subscripcion a{
+	margin-left: 32px;
+	padding-left: 33px;
+	text-align: left;
+	background: url("../images/rss.png") left center no-repeat;
+}
+#intro{
+	margin-top: 66px;
+	padding: 44px;
+	background: black url("../images/fondo.jpg") repeat-x;
+	background-size: 100%;
+	border-radius: 22px;
+	-webkit-background-size:100%;
+	-o-background-size:100%;
+	-khtml-background-size:100%;
+	-moz-border-radius:22px;
+	-webkit-border-radius:22px;
+}
+#intro h2, #intro p{
+	position: relative;
+	z-index: 9999;
+	width: 336px;
+}
+#intro h2{
+	padding: 0 0 22px 0;
+	font-weight: normal;
+	color: chocolate;
+}
+#intro p{
+	padding: 0;
+	color: seashell;
+}
+#intro img{
+	position: absolute;
+	top: 133px;
+	right: 210px;
+	width:  853px;
+	height: 32px;
+}
+#content{
+	display: table;
+}
+
+#maincontent{
+	display: table-cell;
+	width: 620px;
+	padding-right: 22px;
+}
+aside{
+	display: table-cell;
+	width: 300px;
+}
+.blogpost header p, .blogpost header p a{
+	font-size: 14px;
+	font-style: italic;
+	color: peru;
+}
+.blogpost header p a:hover{
+	text-decoration: none;
+	color: darkorange;
+}
+.blogpost div{
+	-moz-column-count: 2;
+	-webkit-column-count:2;
+	-moz-column-gap: 22px;
+	-webkit-column-gap:22px;
+}
+.blogpost img{
+	margin: 22px 0;
+	-webkit-box-shadow:3px 3px 7px #777;
+}
+#comments{
+	margin-top: 21px;
+	padding-top: 22px;
+	border-top: 1px solid #d7d7d7;
+}
+#comments article{
+	display: table;
+	padding: 22px;
+}
+#comments article:nth-child(odd){
+	padding: 21px;
+	background: cornsilk;
+	border: 1px solid cornsilk;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+}
+#comments article header{
+	display: table-cell;
+	width: 220px;
+	padding-right: 22px;
+}
+#comments article header a{
+	display: block;
+	font-weight: bold;
+	color: chocolate;
+}
+#comments article header a:hover{
+	text-decoration: none;
+}
+#comments article p{
+	padding: 0;
+}
+form{
+	border-top: 1px solid #d7d7d7;
+	margin-top: 21px;
+	padding-top: 22px;
+}
+form p{
+	display: table;
+	margin-bottom: 22px;
+	padding: 0 22px;
+}
+form label{
+	display: table-cell;
+	font-weight: bold;
+	padding-right: 20px;
+	text-align: right;
+	vertical-align: top;
+	width: 140px;
+}
+form input[type="text"], form input[type="email"], form input[type="url"]{
+	border: 1px solid darkorange;
+	display: table-cell;
+	height: 20px;
+	width: 300px;
+} 
+form input[type="submit"]{
+	margin-left: 162px;
+}
+form textarea{
+	border: 1px solid darkorange;
+	height: 100px;
+	width: 300px;
+}
+aside section{
+	background: url("../images/sidebar_section_background.png");
+	padding: 11px 22px;
+	margin: 22px 0 0 22px;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+}
+aside section ul{
+	list-style: none;
+	margin: 0 0 0 22px;
+}
+aside section ul li a{
+	color: peru;
+	display: block;
+	text-decoration: none;
+}
+aside section ul li a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	background: #222;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+footer div{
+	color: seashell;
+	display: table;
+	margin: 0 auto;
+	padding: 44px 0;
+	width: 940px;
+}
+footer div section{
+	display: table-cell;
+	width: 300px;
+}
+footer div #about, footer div #blogroll{
+	padding-right: 20px;
+}
+footer h3{
+	color: #fff;
+}
+footer a{
+	color: chocolate;
+}
+footer a:hover{
+	color: darkorange;
+	text-decoration: none;
+}
+footer ul{
+	color: chocolate;
+	list-style: square;
+	margin: 0 0 0 40px;
+}
+footer ul li a{
+	display: block;
+}
+
+
+
+
