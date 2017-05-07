@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	opacity: .9;
+	text-decoration: none;
+}
+body{
+	background-color: black;
+}
+h3{
+	color: whitesmoke;
+	text-align: center;
+}
+header{
+	background: black;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+footer{
+	background: black;
+	color: whitesmoke;
+	height: 10em;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	text-align:center;
+	width: 100%;
+}
+footer img{
+	border-bottom: 2px solid whitesmoke;
+	border-top: 2px solid whitesmoke;
+	margin-bottom: 3%;
+}
+nav {
+	float: left;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	font-family: 'Questrial', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+nav ul li a {
+	color: whitesmoke;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background: #003300;
+	color: whites;
+}
+table{
+	margin-left: 20%;
+	margin-top: 5%;
+	width: 60%;
+}
+tr{
+	margin-left: auto;
+	margin-top: auto;
+
+}
+td{
+	padding: 2px;
+	width: 33.33%;
+	padding-bottom: 35px;
+}
+.cabecera{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom: 2px double black;
+	opacity: .9;
+	width: 100%;
+}
+.cabecera h1{
+	background-color: whitesmoke;
+	font-size: 50px;display: block;
+	padding-bottom: 15%;
+	padding-top: 15%;
+	text-align: center;
+}
+#come h1{
+	background-color: chocolate;
+	color: whitesmoke;
+}
+#dram h1{
+	background-color: maroon;
+	color: whitesmoke;
+}
+#cifi h1{
+	background-color: steelblue;
+	color: whitesmoke;
+}
+#susp h1{
+	background-color: teal;
+	color: whitesmoke;
+}
+.content{
+	width: 100%;
+}
+.ques{
+	font-family: 'Questrial', sans-serif;
+}
+.quick{
+	font-family: 'Quicksand', sans-serif;
+}
